@@ -48,7 +48,7 @@ a {
   font-weight: 400; }
 
 .show {
-  display: block; }
+  display: block !important; }
 
 .hide {
   display: none; }
