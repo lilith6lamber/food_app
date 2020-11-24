@@ -278,9 +278,9 @@ window.addEventListener('DOMContentLoaded', () => {
       statusMessage.src = message.loading;
       statusMessage.style.cssText = `
             display: block;
-            margin: 0 auto;
-            width: 40px;
-            height: 40px;
+            margin: 16px auto;
+            width: 32px;
+            height: 32px;
           `;
       form.insertAdjacentElement('afterend', statusMessage);
       const request = new XMLHttpRequest();
